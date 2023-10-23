@@ -1,0 +1,256 @@
+body {
+    font-family: Times, Arial, Helvetica, sans-serif;
+    color: #194f92;
+    background-color: #2c3e50;
+    background-size: cover; 
+    height: 20px; 
+    color: #fff; 
+    padding-bottom: 50px; 
+}
+header {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 100%;
+    background-color: #34495e;
+    color: #ecf0f1;
+    height: 25px;
+text-align: center;
+margin-top: 10px;
+position:fixed;
+}
+header a {
+    color: #ecf0f1;
+    justify-content: center;
+    margin-left:50px;
+    text-decoration: none;
+
+}
+.menu a:hover{
+    color :#e74c3c;
+    background-color: #ecf0f1;
+}
+
+.container { 
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 90rem;
+    margin: 1px 1px;
+    padding: 30px 15px;
+    color: white;
+    align-items: center;
+    background-color: #ecf0f1;
+    border: 2px solid #2c3e50;
+
+}
+.user-photo{
+    margin-right:20px;
+    margin-top: 50px;
+}
+.user-photo img{
+    width: 50%;
+    height: 50%;
+    border-radius: 30%;
+}
+.box{
+    display: inline-block;
+
+    padding: 100px;
+}
+h1{
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+}
+section#about-me {
+    margin-top: 20px;
+}
+.box h1{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.box {
+
+    padding: 100px;
+    border-radius: 5px;
+}
+
+h1{
+    color:#34495e;
+    
+}
+h4{
+    color:#e74c3c;
+    text-align: 20px;
+}
+
+p {
+    color: #2c3e50;
+    font-size: 20px ;
+
+}
+.box1{
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+        
+}
+.contain_er{
+    display: flex;
+background-color: #f5f7f8 ;
+justify-content: center;
+align-items: center;
+}
+
+.box1 h1{
+    text-align: center;
+    margin: 0;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #001f3f;
+}
+.box1 h1{
+    color : rgb(248 165 119);
+}
+.box1 h3{
+    color : rgb(189, 147, 96);
+}
+#project{
+    background-color: #f5f7f8;
+}
+.box1 img{
+    display: flex;
+    align-items: center;
+}
+#education{
+    background-color: #f5f7f8;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill {
+    flex: 1;
+    color: whitesmoke;
+}
+
+.percent {
+    background-color: black;
+    height: 20px;
+    width: 10%;
+    border: 1px solid white;
+    text-align: right;
+    padding: 0 10px;
+    line-height :20px;
+    position: relative;
+
+}
+.newt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.blog {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 1px;
+}
+ .blog .img{
+         max-width: 80%;
+         height: 20rem;;
+         display: block;
+         border: 2px solid #222;
+         border-radius: 10px;
+ }
+ 
+ .blog h3{
+    font-size: 24px;
+    margin :10px 0;
+    text-align: auto;
+ }
+ .title_blog{
+    margin: 20px 0;;
+ }
+ .blogt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    background-color: #C0C0C0;
+ }
+ .blogt h1{
+    text-align: center;
+    border: 2px solid #001f3f;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+ }
+ 
+footer {
+    background-color: rgb(25, 22, 37) ; 
+    color: black; 
+    padding: 20px;
+    text-align: center;
+}
+
+.contact img {
+    width: 30px; 
+    height: 30px; 
+    margin: 10px;
+}
+
+.contact a:hover img {
+    filter: grayscale(100%); 
+}
+
+
+@media (max-width: 500px) {
+ .user-photo img{
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+ }
+    .menu {
+        display:flex;
+        flex-direction: column;
+        position:fixed;
+        font-size: 24px;
+        background-color: #34495e;
+        text-align: center;
+        
+    }
+    .blog img{
+        max-width: 100%;
+        height: auto;
+        border-radius:0;
+    }
+    #education{
+        max-width:fit-content;
+        font-size: small;
+  }
+  #experience{
+    max-width:fit-content;
+    font-size: small;
+
+}
+}
